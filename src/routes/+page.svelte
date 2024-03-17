@@ -1,5 +1,5 @@
 <svelte:head>
-<title>Пятунин Максим</title>
+<title>Model Agency MAXIM</title>
 </svelte:head>
 
 <div class ="container">
@@ -8,17 +8,15 @@
             <div class="container info-container">
                 <div class="info-text">
                     <h1>
-                        <p class="animate-text-1">Lorem ipsum dolor sit,</p>
-                        <p class="text-2">Lorem ipsum dolor sit amet.</p>
+                        <p class="animate-text-1">Model Agency</p>
+                        <p class="text-2">Модельное агентство MAXIM</p>
                     </h1>
                 </div>
                 <h2 class="subtitle">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto aut, cupiditate dolores
- ducimus expedita labore nemo odio quibusdam quidem sapiente soluta.
+                    Вы когда-нибудь задумывались о том, сколько дорог и перекрёстков предоставляет нам жизнь? Берите то, что даёт вам судьба! Возможно, впереди то самое будущее, о котором вы мечтаете, нужно просто открыться ему. Очень трудно вернуть упущенное время, а порой и невозможно. Позвольте чудесам случиться!Приходите в моё агентство!
                 </h2>
                 <div style="color:black" class="scroll-button animate-scroll" tabindex="0">
-                    <a href="/about">Click Here</a>
-                    <div class="arrow">→</div>
+                    <a href="/models">Модели →</a>
                 </div>
             </div>
         </div>
@@ -70,8 +68,8 @@
     }
     
     .background-div {
-        background-color: #ecebe8;
-        width: 100%;
+        background-color: #bcb4db;
+        width: 200%;
         height: 56vh;
         margin: -205px auto;
     }
@@ -80,13 +78,12 @@
     }
 
     .scroll-button {
-        display: flex;
-        border: none;
-        outline: none;
-        cursor: pointer;
-    }
-
-    .scroll-button .arrow {
-        margin-left: 0.50rem;
-    }
+    display: inline-block;
+    background-color: #8375ac;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
 </style>
