@@ -1,6 +1,6 @@
 <nav>
     <div class = "nav-container">
-        <a href="/" class ="nav-logo" title="Back to Homepages">Model Agency Maxim</a>
+        <a href="/" class ="nav-logo" title="Back to Homepages">Maxim Cinema</a>
         <div class="nav-links">
             {#each nav as link}
                 <a href={link.href} class="link">{link.title}</a>
@@ -17,8 +17,12 @@
 <script>
     const nav = [
         {
-            title: "Модели",
-            href: "/models"
+            title: "Каталог",
+            href: "/catalog"
+        },
+        {
+            title: "Анонс",
+            href: "/anons"
         },
         {
             title: "Контакты",
@@ -33,7 +37,7 @@
         margin: 50 px auto;
     }
 nav {
-    background-color: #333;
+    background-color: #5e83d3;
     padding: 10px 0;
     width: 100%;
     margin-left: calc(-50vw + 50%);
